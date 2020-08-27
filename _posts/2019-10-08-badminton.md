@@ -12,7 +12,7 @@ service: 'Sports Analytics'
 type: 'Class Project'
 
 featured_image: '/img/posts/yonex_all_england.png'
-project_link: 'https://towardsdatascience.com/predicting-startup-performance-using-logistic-regression-582a1e80b2eb?source=friends_link&sk=4ca4b1ee7e9cab9214b2ec59f302c271'
+project_link: 'https://towardsdatascience.com/service-point-lead-and-consecutive-points-in-badminton-games-d6abb86ea5ab?source=friends_link&sk=a8e5efa6447309993bd7e996e564795e'
 button_icon: 'medium'
 button_text: 'Read Publication'
 
