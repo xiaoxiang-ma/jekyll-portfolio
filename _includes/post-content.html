@@ -1,0 +1,52 @@
+<div class="content">
+  <h3 class="title">{{ post.title }}</h3>
+
+  <p class="excerpt">{{ post.lead_text }}</p>
+
+  <ul> 
+    <li>Duration: {{ post.duration }}</li>
+    <li>Service: {{ post.service }}</li>
+    <li>Type: {{ post.type }}</li>
+  </ul>
+
+  <!-- <table class="table_info">
+    <colgroup>
+      <col style="width:30%;">
+      <col style="width:70%;">
+    </colgroup> 
+    <tr>
+      <td><li>Duration:</li></td>
+      <td>{{ post.duration }}</td>
+    </tr>
+    <tr>
+      <td><li>Type:</li></td>
+      <td>{{ post.type }}</td>
+    </tr>
+    <tr>
+      <td><li>Service:</li></td>
+      <td>{{ post.service }}</td>
+    </tr>
+    
+  </table> -->
+
+  {% if post.project_link != empty %}
+  <a href="{{ post.project_link }}" target="_blank" class="project-link"><button class="btn btn-default btn-lg"><i class="fa fa-{{post.button_icon}} fa-lg"></i>{{post.button_text}}</button></a>
+  {% endif %}
+
+  
+  {% if post.tags != empty %}
+  <div class="tags">
+    {% for tag in post.tags %}
+    <span>{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- {% if post.categories != empty %}
+  <div class="categories">
+    {% for category in post.categories %}
+      <span>{{ category }}</span>
+    {% endfor %}
+  </div>
+  {% endif %} -->
+</div>
