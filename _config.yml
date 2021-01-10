@@ -13,12 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Hello, I'm Xiaoxiang, <br> a data analyst."
+title: "Hello, I'm Xiaoxiang Ma"
 email: 'xm53@cornell.edu'
-description: "I am a fourth-year student at Cornell University studying data science
- and expected to graduate in December 2021. I have considerable experience in training 
- machine learning & reinforcement learning models to improve chatbot related efficiency, 
- classification accuracy, and reward system performace."
+description: "I am a M.Eng. student at Cornell University studying operations research
+ and expecting to graduate in December 2021. I have experiences working with data science & machine learning in fields including telehealth, finance, and aid allocation."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xiaoxiang-ma.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: ''
@@ -105,7 +103,7 @@ enable_contact: false
 
 ### Section 
 section_title: 'Latest Work'
-section_subtitle: ''
+section_subtitle: 'A collection of internship / personal project / volunteer work'
 
 #### Phantom Navigation menu
 enable_nav: true
